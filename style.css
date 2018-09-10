@@ -1,0 +1,385 @@
+* {
+  color: black;
+  font-weight: bold;
+  text-shadow: white 5px;
+  font-family: Asap, Sans Serif;
+}
+
+html {
+  background: url('images/polygon-background.gif') no-repeat center center fixed; 
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+*/  background-size: cover;
+}
+/*<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/XUlZwUxLv4v1m" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/polygon-XUlZwUxLv4v1m">via GIPHY</a></p>*/
+
+/*images/poly-blue.jpg*/
+
+body {
+  /*background-color: yellow;*/
+  box-sizing: border-box;
+/*  background-image: url("images/background-red.jpg");
+  background-repeat: no-repeat;
+  background-size: stretch;*/
+}
+
+header {
+  background-color: black;
+  opacity: .6;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: flex-end;
+}
+
+.button-section {
+  height: 25px;
+  opacity: 1;
+  z-index: 10;
+  margin: 0 0 25px 0;
+}
+
+.button {
+  margin: 0 36px;
+  color: white;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.button:hover {
+  color: #FFFE77;
+}
+
+.trade-link {
+  margin: 0 36px 0 25px;
+}
+
+.button-icon {
+  height: 25px;
+  width: 25px;
+  margin: 0 7px 0 0;
+}
+
+.share-icon {
+  margin: 0 10px 0 0;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  margin: 0 25px 0 0;
+  opacity: 1;
+}
+
+.trainer-name {
+  float: right;
+  margin: 0 28px 10px 0;
+  position: relative;
+  top: 0px;
+}
+
+.trainer-selector-icon {
+  margin: 0 7px 0 0;
+}
+
+.trainer-name {
+  /*color: #FFFC8B;*/
+  top: 10px;
+}
+
+.caret {
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}
+
+div {
+  word-wrap: break-word;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  /*background-color: #458C0B;*/
+}
+
+.main-title {
+  font-size: 3rem;
+  min-height: 100px;
+  color: #FFFE77;
+  /*background-color: #458C0B;*/
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 15px;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.card-grid {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-gap: 10px;
+}
+
+.card {
+  border: solid 15px;
+  border-radius: 4%;
+  border-color: #FFFE77;
+  /*color: #00DFE9;*/
+  text-shadow: 2px -1px 3px #ffffff;
+  box-shadow: 5px 5px 3px #000000;
+  /*background-image: url("images/fire-background.png")*/
+}
+
+
+.card-background-div,
+.card,
+.bottom-div {
+/*  background-image: url("images/pikachu.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-background-div {
+/*  opacity: 0.7;*/
+  height: 150px;
+  /*background: */
+  /*linear-gradient(rgba(77,77,77,0.5), rgba(77,77,77,0.5)), */
+}
+.quantity-div {
+  float: right;
+}
+
+.quantity {
+  float: right;
+  font-size: 2rem;
+}
+
+.quantity-word,
+.quantity {
+  opacity: 1.0;
+  text-shadow: 2px 2px 2px black;
+  margin: 0 5px 5px 0;
+}
+
+.card-background-div p {
+  color: white;
+}
+
+.card-icon-large {
+  height: 35%;
+  width: 17%;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: -2px;
+}
+
+.bottom-div {
+  color: #00DFE9;
+  padding: 10px;
+}
+
+.name-date-div,
+.link-div,
+.type-div,
+.trade-request-div, 
+p,
+a {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.link-div,
+a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.born {
+  font-size: .7rem;
+  margin-top: -12px;
+  color: #CBECF5;
+}
+
+.type-word {
+  font-size: .85rem;
+  margin-bottom: -12px;
+}
+
+.type {
+  font-size: 1.2rem;
+}
+
+.trade-request-p {
+  margin-bottom: -25px;
+}
+
+.trade-request-num {
+  font-size: 1.9rem;
+  color: lightgreen;
+}
+
+/* background: 
+  linear-gradient(rgba(77,77,77,0.5), rgba(77,77,77,0.5)), 
+  url(https://wildaid.org/wp-content/uploads/2017/09/program-header_sharks-1024x413.jpg);*/
+
+.card-background-div:hover {
+  background-image: url("images/magikarp.gif")
+}
+
+.card1 {
+  /*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),*/
+  background-image: url("images/electric-background.png");
+}
+
+.card-background1 {
+  background-image: url("images/pikachu.jpg");
+}
+
+.card1 {
+  background-image: url("images/electric-background.png")
+}
+
+.card-background2 {
+  background-image: url("images/venusaur.jpg");
+}
+
+.card2 {
+  background-image: url("images/grass-background.png")
+}
+
+.card-background3 {
+  background-image: url("images/sandslash.png")
+}
+
+.card3 {
+  background-image: url("images/ground-background.png")
+}
+
+.card-background4 {
+  background-image: url("images/zapdos.jpeg")
+}
+
+.card4 {
+  background-image: url("images/electric-background.png")
+}
+
+.card-background5 {
+  background-image: url("images/blastoise.png")
+}
+
+.card5 {
+  background-image: url("images/water-background.png")
+}
+
+.card-background6 {
+  background-image: url("images/mew.jpeg")
+}
+
+.card6 {
+  background-image: url("images/psychic-background.png")
+}
+
+.card-background7 {
+  background-image: url("images/charmander.png")
+}
+
+.card7 {
+  background-image: url("images/fire-background.png")
+}
+
+.card-background8 {
+  background-image: url("images/alakazam.jpg")
+}
+
+.card8 {
+  background-image: url("images/psychic-background.png")
+}
+
+@media only screen and (max-width: 790px) {
+
+  .card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
+  }
+
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 0 0 9px 0;
+  }
+
+  .flex-row {
+    margin: 0;
+  }
+
+  .button {
+    margin: 15px 15px 0px;
+  }
+
+  .trainer-name {
+    float: right;
+    margin: 0 28px 10px 0;
+    position: relative;
+    top: 10px;
+  }
+
+/*  .card-icon-large {
+    left: 0px;
+  }*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .card-grid { 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+   body {
+    font-size: 14px;
+   }
+
+  .logo {
+    height: 100px;
+    width: 170px;
+    margin: 0 15px 0 0;
+    opacity: 1;
+  }
+
+  .trainer-name {
+    margin: 0px 13px 0 0;
+    top: 2px;
+  }
+
+  .main-title {
+    font-size: 2rem;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+  }
+}
