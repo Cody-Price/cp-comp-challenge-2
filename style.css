@@ -7,21 +7,12 @@
 
 html {
   background: url('images/polygon-background.gif') no-repeat center center fixed; 
-/*  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-*/  background-size: cover;
+  background-size: cover;
 }
-/*<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/XUlZwUxLv4v1m" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/polygon-XUlZwUxLv4v1m">via GIPHY</a></p>*/
 
-/*images/poly-blue.jpg*/
 
 body {
-  /*background-color: yellow;*/
   box-sizing: border-box;
-/*  background-image: url("images/background-red.jpg");
-  background-repeat: no-repeat;
-  background-size: stretch;*/
 }
 
 header {
@@ -89,7 +80,6 @@ header {
 }
 
 .trainer-name {
-  /*color: #FFFC8B;*/
   top: 10px;
 }
 
@@ -113,15 +103,11 @@ div {
   flex-direction: column;
 }
 
-main {
-  /*background-color: #458C0B;*/
-}
 
 .main-title {
   font-size: 3rem;
   min-height: 100px;
   color: #FFFE77;
-  /*background-color: #458C0B;*/
   display: flex;
   align-items: center;
   margin: 0 0 0 15px;
@@ -139,26 +125,20 @@ main {
   border: solid 15px;
   border-radius: 4%;
   border-color: #FFFE77;
-  /*color: #00DFE9;*/
   text-shadow: 2px -1px 3px #ffffff;
   box-shadow: 5px 5px 3px #000000;
-  /*background-image: url("images/fire-background.png")*/
 }
 
 
 .card-background-div,
 .card,
 .bottom-div {
-/*  background-image: url("images/pikachu.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card-background-div {
-/*  opacity: 0.7;*/
   height: 150px;
-  /*background: */
-  /*linear-gradient(rgba(77,77,77,0.5), rgba(77,77,77,0.5)), */
 }
 .quantity-div {
   float: right;
@@ -238,16 +218,13 @@ a {
   color: lightgreen;
 }
 
-/* background: 
-  linear-gradient(rgba(77,77,77,0.5), rgba(77,77,77,0.5)), 
-  url(https://wildaid.org/wp-content/uploads/2017/09/program-header_sharks-1024x413.jpg);*/
+
 
 .card-background-div:hover {
   background-image: url("images/magikarp.gif")
 }
 
 .card1 {
-  /*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),*/
   background-image: url("images/electric-background.png");
 }
 
@@ -344,10 +321,7 @@ a {
     top: 10px;
   }
 
-/*  .card-icon-large {
-    left: 0px;
-  }*/
-
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -355,6 +329,7 @@ a {
   .card-grid { 
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+
 }
 
 @media only screen and (max-width: 420px) {
